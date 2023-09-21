@@ -84,10 +84,11 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 130px;
+}
 /* Section Styles */
 .about {
-    margin: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     padding: 130px 150px;
@@ -96,7 +97,7 @@ main {
 
 .section-title {
     color: var(--Dark-01, #181818);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 35px;
     font-weight: 700;
 }
@@ -107,16 +108,64 @@ main {
     margin-bottom: 30px;
 }
 
-.info-container{
+.info-container {
     display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     color: var(--Dark-03, #757575);
     font-size: 20px;
 }
-.info-description{
+
+.info-description {
     color: var(--Dark-02, #474747);
     font-size: 20px;
     font-weight: 700;
+}
+
+
+/* What i do styles */
+
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.skill-heading {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+
+}
+
+.skill-title {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.skill-description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
 }
