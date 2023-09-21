@@ -84,9 +84,11 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin-top: 130px;
 }
+
 /* Section Styles */
 .about {
     border-radius: 10px;
@@ -168,4 +170,38 @@ section{
     color: var(--Dark-03, #757575);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Resume section styles */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resume .sub-title { 
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.resume .description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+}
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
 }
