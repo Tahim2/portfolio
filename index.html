@@ -3,21 +3,39 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Abu Tahim Habiby | AI Research & Engineering Portfolio</title>
+
   <meta
     name="description"
     content="Research-oriented portfolio of Abu Tahim Habiby - focusing on medical AI, computer vision, explainable AI, machine learning research, RAG-based intelligent systems, and practical AI engineering."
   />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   <link
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
     rel="stylesheet"
   />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-one"></div>
+  <div class="bg-glow bg-glow-two"></div>
 
   <header class="header">
     <div class="container nav">
@@ -25,6 +43,7 @@
 
       <nav class="nav-links" id="navLinks">
         <a href="#about">About</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Projects</a>
@@ -39,33 +58,84 @@
 
   <main>
     <section class="hero section" id="home">
-      <div class="container hero-single">
+      <div class="container hero-grid">
         <div class="hero-text reveal">
           <p class="badge">AI Research • ML • Computer Vision • Medical AI • XAI</p>
+
           <h1>Abu Tahim Habiby</h1>
-          <h2>Research-Oriented AI/ML Engineer Building Explainable and Clinically Relevant Intelligent Systems</h2>
+
+          <h2>
+            Research-Oriented AI/ML Engineer Building Explainable and Clinically Relevant Intelligent Systems
+          </h2>
+
           <p class="hero-description">
-            I focus on artificial intelligence and machine learning research with strong emphasis on medical AI,
-            computer vision, explainable AI, and applied intelligent systems. My work connects research methodology
-            with practical implementation by developing end-to-end pipelines for data processing, model development,
-            evaluation, interpretability, and deployment-ready AI solutions, including RAG-based assistants and
-            real-world decision-support systems.
+            I develop research-driven AI systems across medical imaging, clinical prediction, explainable machine learning,
+            RAG applications, and applied intelligent software.
           </p>
 
           <div class="hero-highlights">
             <span>Computer Vision</span>
             <span>Medical AI</span>
-            <span>End-to-End ML Pipelines</span>
-            <span>RAG Systems</span>
             <span>Explainable AI</span>
-            <span>Applied AI Solutions</span>
+            <span>RAG Systems</span>
+            <span>ML Pipelines</span>
+            <span>Applied AI</span>
           </div>
 
-          <div class="hero-buttons">
-            <a href="#publications" class="btn btn-primary">View Research Work</a>
-            <a href="assets/cv/Abu_Tahim_CV.pdf" class="btn btn-secondary" target="_blank">Download CV</a>
-            <a href="https://github.com/Tahim2" target="_blank" class="btn btn-secondary">GitHub</a>
-            <a href="mailto:habiby15-4750@diu.edu.bd" class="btn btn-secondary">Email</a>
+          <div class="hero-actions">
+            <div class="hero-buttons">
+              <a href="#publications" class="btn btn-primary">View Research Work</a>
+              <a href="assets/cv/Abu_Tahim_CV.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Download CV</a>
+            </div>
+
+            <div class="social-links" aria-label="Professional profiles">
+              <a href="https://github.com/Tahim2" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/abutahimhabiby/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="https://scholar.google.com/citations?user=zKfxCQkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Google Scholar" title="Google Scholar">
+                <i class="ai ai-google-scholar"></i>
+              </a>
+
+              <a href="https://www.researchgate.net/profile/Abu-Habiby?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="ResearchGate" title="ResearchGate">
+                <i class="ai ai-researchgate"></i>
+              </a>
+
+              <a href="mailto:habiby15-4750@diu.edu.bd" class="social-icon" aria-label="Email" title="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap reveal">
+          <div class="hero-image-card">
+            <div class="image-ring">
+              <img
+                src="assets/images/profile.png"
+                alt="Abu Tahim Habiby"
+                class="hero-profile-img"
+              />
+            </div>
+
+            <div class="hero-image-info">
+              <h3>AI/ML Researcher</h3>
+              <p>Medical AI • XAI • Computer Vision • RAG</p>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-one">
+            <strong>3+</strong>
+            <span>Research Works</span>
+          </div>
+
+          <div class="floating-card floating-card-two">
+            <strong>XAI</strong>
+            <span>Research Focus</span>
           </div>
         </div>
       </div>
@@ -75,35 +145,95 @@
       <div class="container">
         <div class="section-heading reveal">
           <p class="section-label">About Me</p>
-          <h2>Developing Research-Driven AI Systems That Are Explainable, Reliable, and Practically Useful</h2>
+          <h2>Research Profile</h2>
         </div>
 
-        <div class="about-grid">
-          <div class="about-card reveal">
+        <div class="about-profile-card reveal">
+          <div class="about-profile-main">
             <p>
-              I am a Computer Science and Engineering researcher and AI/ML engineer with a strong academic interest
-              in medical artificial intelligence, computer vision, explainable machine learning, and clinically
-              meaningful decision-support systems. My research direction focuses on designing intelligent models
-              that are not only accurate, but also interpretable, reproducible, and suitable for real-world use.
+              I am a Computer Science and Engineering graduate and research-oriented AI/ML engineer with a strong
+              academic focus on medical artificial intelligence, computer vision, explainable machine learning,
+              and clinically meaningful decision-support systems. My work connects research methodology with
+              practical implementation by developing complete AI workflows — from problem formulation, dataset
+              preparation, model architecture design, and experimental evaluation to interpretability analysis
+              and deployment-ready applications.
             </p>
+
             <p>
-              My work includes healthcare-oriented deep learning systems, interpretable ensemble learning models,
-              medical image classification frameworks, RAG-based research assistants, repository understanding tools,
-              and productivity-focused full-stack platforms. I am especially interested in transforming research
-              ideas into complete AI workflows — from problem formulation, dataset preparation, model architecture
-              design, and experimental evaluation to explainability analysis and application-oriented deployment.
+              My experience includes healthcare-focused deep learning systems, interpretable ensemble learning
+              models, medical image classification frameworks, RAG-based research assistants, repository
+              understanding tools, and productivity-oriented full-stack platforms. I am especially interested in
+              building intelligent systems that are accurate, explainable, reproducible, scalable, and useful for
+              real-world academic, clinical, and industrial settings.
             </p>
           </div>
 
-          <div class="about-card reveal">
-            <h3>What I Bring</h3>
+          <div class="about-profile-side">
+            <h3>Core Strengths</h3>
+
             <ul class="highlight-list">
-              <li>Research experience in medical AI, computer vision, and explainable machine learning</li>
-              <li>Experience with end-to-end ML pipelines, experimental evaluation, and model interpretation</li>
-              <li>Hands-on work in RAG, NLP, document QA, and intelligent assistant systems</li>
-              <li>Practical ability to build deployable AI applications using modern engineering workflows</li>
-              <li>Ability to connect academic research, technical implementation, and real-world problem solving</li>
+              <li>Medical AI and computer vision research</li>
+              <li>Explainable AI using Grad-CAM, SHAP, and LIME</li>
+              <li>End-to-end machine learning pipeline development</li>
+              <li>RAG, NLP, document QA, and intelligent assistants</li>
+              <li>Research implementation with practical engineering mindset</li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Education</p>
+          <h2>Academic Background</h2>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="education-header">
+            <div>
+              <p class="project-tag">Bachelor’s Degree</p>
+              <h3>Bachelor of Science in Computer Science and Engineering</h3>
+              <p class="education-institute">
+                Daffodil International University, Dhaka, Bangladesh
+              </p>
+            </div>
+
+            <span class="education-year">2026</span>
+          </div>
+
+          <div class="education-details">
+            <div>
+              <strong>CGPA</strong>
+              <span>3.81 / 4.00</span>
+            </div>
+
+            <div>
+              <strong>Total Credits</strong>
+              <span>148</span>
+            </div>
+
+            <div>
+              <strong>Research Focus</strong>
+              <span>AI, Machine Learning, Computer Vision, Medical AI</span>
+            </div>
+          </div>
+
+          <p class="education-description">
+            My undergraduate training provided a strong foundation in computer science, software engineering,
+            artificial intelligence, statistics, database systems, algorithms, and machine learning. This academic
+            background supports my research direction in explainable AI, medical image analysis, clinical prediction,
+            deep learning, RAG-based systems, and applied intelligent software development.
+          </p>
+
+          <div class="tech-stack">
+            <span>Data Structures & Algorithms</span>
+            <span>Artificial Intelligence</span>
+            <span>Statistics</span>
+            <span>Database Systems</span>
+            <span>Software Engineering</span>
+            <span>Machine Learning</span>
           </div>
         </div>
       </div>
@@ -178,45 +308,60 @@
           <div class="publication-card reveal">
             <p class="project-tag">Published Conference Paper</p>
             <h3>RXV: Interpretable RF-Stacked CNNs for Brain Tumor MRI Classification</h3>
+
             <p>
               This paper introduces RXV, an interpretable brain tumor MRI classification framework that integrates
               ResNet50V2, VGG16, and Xception with a Random Forest meta-learner. The work emphasizes both predictive
               performance and visual interpretability through Grad-CAM, making it relevant for computer-aided
               diagnostic research and clinically oriented medical imaging applications.
             </p>
+
             <p class="paper-meta">IEEE WIECON-ECE 2025 — Published in IEEE Xplore</p>
+
             <div class="project-links">
-              <a href="https://ieeexplore.ieee.org/document/11525916" target="_blank">IEEE Xplore</a>
+              <a href="https://ieeexplore.ieee.org/document/11525916" target="_blank" rel="noopener noreferrer">
+                IEEE Xplore
+              </a>
             </div>
           </div>
 
           <div class="publication-card reveal">
             <p class="project-tag">Published Journal Article</p>
             <h3>A High-Accuracy Stacking Ensemble Model for Precise Thyroid Disease Detection with SHAP and LIME Explanations</h3>
+
             <p>
               This article presents an interpretable ensemble learning framework for thyroid disease detection using
               Random Forest, XGBoost, and Decision Tree classifiers with a regularized Logistic Regression meta-learner.
               The study focuses on combining high diagnostic performance with clinically meaningful model explanations
               through SHAP and LIME, supporting transparent and evidence-oriented AI-assisted disease prediction.
             </p>
+
             <p class="paper-meta">Informatics in Medicine Unlocked — Published by Elsevier / ScienceDirect</p>
+
             <div class="project-links">
-              <a href="https://www.sciencedirect.com/science/article/pii/S2352914826000341?via%3Dihub" target="_blank">ScienceDirect</a>
+              <a href="https://www.sciencedirect.com/science/article/pii/S2352914826000341?via%3Dihub" target="_blank" rel="noopener noreferrer">
+                ScienceDirect
+              </a>
             </div>
           </div>
 
           <div class="publication-card reveal">
             <p class="project-tag">Preprint / ResearchGate</p>
             <h3>An Explainable Stacking Ensemble Framework for Early Heart Attack Risk Detection</h3>
+
             <p>
               This work develops an explainable machine learning pipeline for early heart attack risk prediction
               using feature selection, class balancing, and stacking ensemble techniques. It highlights how predictive
               modeling and interpretability can work together to support earlier risk identification, preventive
               decision-making, and healthcare-oriented AI research.
             </p>
+
             <p class="paper-meta">ResearchGate Preprint — Available Online</p>
+
             <div class="project-links">
-              <a href="https://www.researchgate.net/publication/401080946_An_Explainable_Stacking_Ensemble_Framework_for_Early_Heart_Attack_Risk_Detection?channel=doi&linkId=699c538412f837212a1dca58&showFulltext=true" target="_blank">ResearchGate</a>
+              <a href="https://www.researchgate.net/publication/401080946_An_Explainable_Stacking_Ensemble_Framework_for_Early_Heart_Attack_Risk_Detection?channel=doi&linkId=699c538412f837212a1dca58&showFulltext=true" target="_blank" rel="noopener noreferrer">
+                ResearchGate
+              </a>
             </div>
           </div>
         </div>
@@ -235,12 +380,14 @@
             <div class="project-content">
               <p class="project-tag">Healthcare AI</p>
               <h3>ClinFusion-Net</h3>
+
               <p>
                 A research-oriented hybrid CNN–Transformer framework for multi-class gastrointestinal lesion
                 classification using clinically weighted attention and explainability methods. The system combines
                 deep feature extraction, transformer-based contextual representation, and interpretable visualization
                 to support accurate and transparent medical image understanding in diagnostic AI research.
               </p>
+
               <div class="tech-stack">
                 <span>PyTorch</span>
                 <span>ConvNeXt-XL</span>
@@ -248,8 +395,11 @@
                 <span>XAI</span>
                 <span>Medical Imaging</span>
               </div>
+
               <div class="project-links">
-                <a href="https://huggingface.co/spaces/Tahim2/ClinFusion_Net" target="_blank">Live Demo</a>
+                <a href="https://huggingface.co/spaces/Tahim2/ClinFusion_Net" target="_blank" rel="noopener noreferrer">
+                  Live Demo
+                </a>
               </div>
             </div>
           </article>
@@ -258,6 +408,7 @@
             <div class="project-content">
               <p class="project-tag">Developer AI Tool / RAG Application</p>
               <h3>AI Codebase Assistant</h3>
+
               <p>
                 A grounded repository understanding assistant designed to support software comprehension and developer
                 productivity. It helps users explore unfamiliar GitHub repositories through file-level explanation,
@@ -265,6 +416,7 @@
                 Built with hybrid retrieval, FAISS indexing, evidence-backed answers, file-line citations, and
                 confidence-aware response handling.
               </p>
+
               <div class="tech-stack">
                 <span>Python</span>
                 <span>Streamlit</span>
@@ -274,33 +426,36 @@
                 <span>GitPython</span>
                 <span>RAG</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/Tahim2/ai-codebase-assistant" target="_blank">GitHub</a>
-                <a href="https://ai-codebase-assistant.streamlit.app/" target="_blank">Live Demo</a>
+                <a href="https://github.com/Tahim2/ai-codebase-assistant" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://ai-codebase-assistant.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               </div>
             </div>
-          </article>  
-
+          </article>
 
           <article class="project-card reveal">
             <div class="project-content">
               <p class="project-tag">LLM / RAG Application</p>
               <h3>Personal Study Assistant</h3>
+
               <p>
                 A retrieval-augmented assistant that enables users to ask questions over study materials and documents.
                 This project demonstrates practical RAG pipeline design, document representation, semantic retrieval,
                 and AI-assisted learning support, showing how language models can be grounded in user-provided
                 academic content.
               </p>
+
               <div class="tech-stack">
                 <span>Python</span>
                 <span>RAG</span>
                 <span>LangChain</span>
                 <span>Document QA</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/Tahim2/personal-study-assistant-rag" target="_blank">GitHub</a>
-                <a href="https://drive.google.com/file/d/1cnQ_cUJEK3CtXwRTmaOp177dW_KCuc1R/view?usp=sharing" target="_blank">Demo Video</a>
+                <a href="https://github.com/Tahim2/personal-study-assistant-rag" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://drive.google.com/file/d/1cnQ_cUJEK3CtXwRTmaOp177dW_KCuc1R/view?usp=sharing" target="_blank" rel="noopener noreferrer">Demo Video</a>
               </div>
             </div>
           </article>
@@ -309,11 +464,13 @@
             <div class="project-content">
               <p class="project-tag">Productivity Platform</p>
               <h3>Academic Hub</h3>
+
               <p>
                 A full-stack academic management platform designed for CGPA tracking, course organization,
                 and student productivity. The project demonstrates practical software engineering, backend
                 development, database integration, and user-centered platform design for academic workflow support.
               </p>
+
               <div class="tech-stack">
                 <span>JavaScript</span>
                 <span>PHP</span>
@@ -321,8 +478,9 @@
                 <span>Full-Stack</span>
                 <span>MySQL</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/Tahim2/Academic-Hub" target="_blank">GitHub</a>
+                <a href="https://github.com/Tahim2/Academic-Hub" target="_blank" rel="noopener noreferrer">GitHub</a>
               </div>
             </div>
           </article>
@@ -331,12 +489,14 @@
             <div class="project-content">
               <p class="project-tag">RAG Application</p>
               <h3>AI Research Paper Assistant</h3>
+
               <p>
                 A RAG-based research assistant that helps users interact with uploaded research papers through
                 grounded question answering, structured summaries, contribution analysis, limitation identification,
                 and side-by-side paper comparison. Built as an interactive Streamlit application for academic
                 reading, literature review, and research decision-support workflows.
               </p>
+
               <div class="tech-stack">
                 <span>Python</span>
                 <span>Streamlit</span>
@@ -345,9 +505,10 @@
                 <span>Sentence Transformers</span>
                 <span>Groq</span>
               </div>
+
               <div class="project-links">
-                <a href="https://github.com/Tahim2/ai-research-paper-assistant/tree/main" target="_blank">GitHub</a>
-                <a href="https://ai-research-paper-assistant-102.streamlit.app/" target="_blank">Live Demo</a>
+                <a href="https://github.com/Tahim2/ai-research-paper-assistant/tree/main" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://ai-research-paper-assistant-102.streamlit.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               </div>
             </div>
           </article>
@@ -384,73 +545,74 @@
     </section>
 
     <section class="section" id="certifications">
-  <div class="container">
-    <div class="section-heading reveal">
-      <p class="section-label">Certifications</p>
-      <h2>Courses & Professional Training</h2>
-    </div>
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-label">Certifications</p>
+          <h2>Courses & Professional Training</h2>
+        </div>
 
-    <div class="cert-grid">
-      <div class="cert-card reveal">
-        <strong>Supervised Machine Learning: Regression and Classification</strong><br />
-        Stanford Online / Coursera<br />
-        <div class="project-links">
-          <a href="https://www.coursera.org/account/accomplishments/verify/OVTOBE9Q61T6" target="_blank" rel="noopener noreferrer">View Certificate</a>
+        <div class="cert-grid">
+          <div class="cert-card reveal">
+            <strong>Supervised Machine Learning: Regression and Classification</strong><br />
+            Stanford Online / Coursera<br />
+            <div class="project-links">
+              <a href="https://www.coursera.org/account/accomplishments/verify/OVTOBE9Q61T6" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Advanced Learning Algorithms</strong><br />
+            Stanford Online / Coursera<br />
+            <div class="project-links">
+              <a href="https://www.coursera.org/account/accomplishments/verify/WOFUYUBNVYM3" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Machine Learning with Python</strong><br />
+            Coursera<br />
+            <div class="project-links">
+              <a href="https://www.coursera.org/account/accomplishments/verify/Z861ZOPCWKPR" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Deep Learning with Keras and TensorFlow</strong><br />
+            IBM / Coursera<br />
+            <div class="project-links">
+              <a href="https://www.coursera.org/account/accomplishments/verify/XJAP23X2H97B" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Introduction to Deep Learning & Neural Networks with Keras</strong><br />
+            IBM / Coursera<br />
+            <div class="project-links">
+              <a href="https://www.coursera.org/account/accomplishments/verify/UY1H97UZGU1E" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Data Science & Machine Learning with Python 2</strong><br />
+            aiQuest Intelligence<br />
+            <strong>50-Hour Professional Training</strong><br />
+            <div class="project-links">
+              <a href="https://drive.google.com/file/d/1_8u35n3aChlMeABQm5wvHvsWkqrYfxjz/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="cert-card reveal">
+            <strong>Database Training: MySQL & Oracle SQL 2</strong><br />
+            ICT Division, Bangladesh EDGE<br />
+            <strong>80-Hour Training Program</strong><br />
+            <div class="project-links">
+              <a href="https://drive.google.com/file/d/1WClSD0rPKNkd4lFaHffr-S7_8PwJJgzI/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="cert-card reveal">
-        <strong>Advanced Learning Algorithms</strong><br />
-        Stanford Online / Coursera<br />
-        <div class="project-links">
-          <a href="https://www.coursera.org/account/accomplishments/verify/WOFUYUBNVYM3" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-
-      <div class="cert-card reveal">
-        <strong>Machine Learning with Python</strong><br />
-        Coursera<br />
-        <div class="project-links">
-          <a href="https://www.coursera.org/account/accomplishments/verify/Z861ZOPCWKPR" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-
-      <div class="cert-card reveal">
-        <strong>Deep Learning with Keras and TensorFlow</strong><br />
-        IBM / Coursera<br />
-        <div class="project-links">
-          <a href="https://www.coursera.org/account/accomplishments/verify/XJAP23X2H97B" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-
-      <div class="cert-card reveal">
-        <strong>Introduction to Deep Learning & Neural Networks with Keras</strong><br />
-        IBM / Coursera<br />
-        <div class="project-links">
-          <a href="https://www.coursera.org/account/accomplishments/verify/UY1H97UZGU1E" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-
-      <div class="cert-card reveal">
-        <strong>Data Science & Machine Learning with Python 2</strong><br />
-        aiQuest Intelligence<br />
-        <strong>50-Hour Professional Training</strong><br />
-        <div class="project-links">
-          <a href="https://drive.google.com/file/d/1_8u35n3aChlMeABQm5wvHvsWkqrYfxjz/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-
-      <div class="cert-card reveal">
-        <strong>Database Training: MySQL & Oracle SQL 2</strong><br />
-        ICT Division, Bangladesh EDGE<br />
-        <strong>80-Hour Training Program</strong><br />
-        <div class="project-links">
-          <a href="https://drive.google.com/file/d/1WClSD0rPKNkd4lFaHffr-S7_8PwJJgzI/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Certificate</a>
-        </div>
-      </div>
-    </div>
-  </div>
     </section>
+
     <section class="section contact-section" id="contact">
       <div class="container">
         <div class="section-heading reveal">
@@ -467,7 +629,24 @@
 
           <div class="contact-links">
             <a href="mailto:habiby15-4750@diu.edu.bd" class="btn btn-primary">Email Me</a>
-            <a href="https://github.com/Tahim2" target="_blank" class="btn btn-secondary">GitHub</a>
+
+            <div class="social-links contact-social-links">
+              <a href="https://github.com/Tahim2" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/abutahimhabiby/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+
+              <a href="https://scholar.google.com/citations?user=zKfxCQkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Google Scholar" title="Google Scholar">
+                <i class="ai ai-google-scholar"></i>
+              </a>
+
+              <a href="https://www.researchgate.net/profile/Abu-Habiby?ev=hdr_xprf" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="ResearchGate" title="ResearchGate">
+                <i class="ai ai-researchgate"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
